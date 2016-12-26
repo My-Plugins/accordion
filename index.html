@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery accordion 手风琴</title>
+	<link rel="stylesheet" type="text/css" href="jquery.accordion.css">
+</head>
+<body>
+	<div class="accordion">
+		<ul>
+			<li class="item1 active"><a href=""></a></li>
+			<li class="item2" data-src="img/pic2.jpg"><a href=""></a></li>
+			<li class="item3" data-src="img/pic3.jpg"><a href=""></a></li>
+			<li class="item4" data-src="img/pic4.jpg"><a href=""></a></li>
+			<li class="item5" data-src="img/pic5.jpg"><a href=""></a></li>
+		</ul>
+	</div>
+
+<script src="lib/jquery.min.js"></script>
+	<script src="jquery-accordion.js"></script>
+	<script type="text/javascript">
+	// console.log($.fn);
+	  $(document).ready(function(){
+	    $(".accordion").accordion();
+	  });
+	</script>
+</body>
+</html>
